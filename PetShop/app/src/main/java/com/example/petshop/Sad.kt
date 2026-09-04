@@ -1,6 +1,6 @@
 package com.example.petshop
 
-class Sad (mood: String): Mood() {
+class Sad (val date: String): Mood() {
     override fun currentMood(): String {
         return "I'm Sad"
     }
